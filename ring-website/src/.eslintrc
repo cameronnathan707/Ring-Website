@@ -1,0 +1,27 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:shopify/esnext",
+        "prettier"
+    ],
+    "rules": {
+        "no-console": 2,
+        "no-extra-parens": 2,
+        "curly": 1,
+        "dot-location": 1,
+        "dot-notation": 1,
+        "eqeqeq": 1,
+        "no-empty-function": 1,
+        "yoda": 1,
+        "prettier/perttier": 2
+
+    }
+}
