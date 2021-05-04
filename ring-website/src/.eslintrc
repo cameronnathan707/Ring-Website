@@ -9,19 +9,16 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:shopify/esnext",
         "prettier"
     ],
     "rules": {
-        "no-console": 2,
-        "no-extra-parens": 2,
+        "no-console": 1,
         "curly": 1,
         "dot-location": 1,
         "dot-notation": 1,
         "eqeqeq": 1,
         "no-empty-function": 1,
         "yoda": 1,
-        "prettier/perttier": 2
-
+        "prettier/prettier": 1
     }
 }
