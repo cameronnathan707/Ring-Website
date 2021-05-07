@@ -20,5 +20,6 @@
         "no-empty-function": 1,
         "yoda": 1,
         "prettier/prettier": 1
+        
     }
 }
