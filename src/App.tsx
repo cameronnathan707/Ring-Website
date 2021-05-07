@@ -10,6 +10,7 @@ import Customizer from './components/Customizer';
 const navigation = {
   brand: { name: 'Nathan Cameron Creations', to: '/' },
   links: [
+    { name: 'Home', to: '/' },
     { name: 'Products', to: '/prod' },
     { name: 'Ring customizer', to: '/cust' },
     { name: 'About me', to: '/about' },

@@ -6,7 +6,7 @@ import { Link, withRouter } from 'react-router-dom';
 function Home() {
   return (
     <Wrapper>
-      <Title>IMAGEEEEEEEEE EVENTUALLY</Title>
+      <Title>IMAGE EEEEEEEEEVENTUALLY</Title>
     </Wrapper>
   );
 }
