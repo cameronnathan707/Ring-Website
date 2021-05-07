@@ -5,10 +5,10 @@ export const Wrapper = styled.div`
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    border 1px solid lightblue;
+    border 1px solid black;
     border-radius: 20px;
     height: 100%;
-
+    
     button {
         border-radius: 0 0 20px 20px;
     }
@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
 
     div {
         font-family: Arial, Helvetica, sans-serif;
-        padding: 1rem;
+        padding: 40px;
         height: 100%;   
     }
 `;
