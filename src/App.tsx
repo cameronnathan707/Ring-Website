@@ -1,70 +1,37 @@
-import { useState } from 'react';
-import { useQuery } from 'react-query';
+import 'reset-css';
+import NavBarScroller from './components/NavBarScroller';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Products from './components/products';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Customizer from './components/Customizer';
 
-// componennts
-import Drawer from '@material-ui/core/Drawer';
-import LinearProgess from '@material-ui/core/LinearProgress';
-import Grid from '@material-ui/core/Grid';
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
-import Badge from '@material-ui/core/Badge';
-
-import Item from './Item/Item';
-
-// styles
-import { Wrapper, StyledButton } from './App.styles';
-
-// types
-export type CartItemType = {
-  id: number;
-  category: string;
-  description: string;
-  price: number;
-  image: string;
-  title: string;
-  amount: number;
+const navigation = {
+  brand: { name: 'Nathan Cameron Creations', to: '/' },
+  links: [
+    { name: 'Products', to: '/prod' },
+    { name: 'Ring customizer', to: '/cust' },
+    { name: 'About me', to: '/about' },
+    { name: 'Contact', to: '/contact' },
+  ],
 };
 
-const getProducts = async (): Promise<CartItemType[]> =>
-  (await fetch('https://fakestoreapi.com/products')).json();
-
-const App = (): any => {
-  const [cartOpen, setCartOpen] = useState(false);
-  const [cartItems, setCartItems] = useState([] as CartItemType[]);
-  const { data, isLoading, error } = useQuery<CartItemType[]>(
-    'products',
-    getProducts
-  );
-
-  const getToatalItems = (items: CartItemType[]) => null;
-  const handleAddToCart = (clickedItem: CartItemType) => null;
-  // const handleRemoveFromCart = () => null;
-
-  if (isLoading) {
-    return <LinearProgess />;
-  }
-  if (error) {
-    return <div>Something went wrong ... </div>;
-  }
-
+function App() {
   return (
-    <Wrapper>
-      <Drawer anchor="right" open={cartOpen} onClose={() => setCartOpen(false)}>
-        Cart goes here
-      </Drawer>
-      <StyledButton onClick={() => setCartOpen(true)}>
-        <Badge badgeContent={getToatalItems(cartItems)} color="error">
-          <AddShoppingCartIcon />
-        </Badge>
-      </StyledButton>
-      <Grid container spacing={3}>
-        {data?.map((item) => (
-          <Grid item key={item.id} xs={12} sm={4}>
-            <Item item={item} handleAddToCart={handleAddToCart} />
-          </Grid>
-        ))}
-      </Grid>
-    </Wrapper>
+    <div className="App">
+      <Router>
+        <NavBarScroller brand={navigation.brand} links={navigation.links} />
+        <Switch>
+        <Route path="/" exact component={() => <Home />} />
+          <Route path="/prod" exact component={() => <Products />} />
+          <Route path="/about" exact component={() => <About />} />
+          <Route path="/cust" exact component={() => <Customizer />} />
+          <Route path="/contact" exact component={() => <Contact />} />
+        </Switch>
+      </Router>
+    </div>
   );
-};
+}
 
 export default App;
