@@ -10,11 +10,9 @@ function Contact() {
   return (
     <Wrapper>
       <Title> Contact</Title>
+      <Heading>You can find me on Instagram: @Nathan.Cameron.Creations</Heading>
       <Heading>
-       You can find me on Instagram:  @Nathan.Cameron.Creations 
-       </Heading>
-       <Heading>
-       Or contact me through email at: nathan.cameron.creations@gmail.com
+        Or contact me through email at: nathan.cameron.creations@gmail.com
       </Heading>
     </Wrapper>
   );

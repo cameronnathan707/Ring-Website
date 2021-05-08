@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: 2px solid black;
   padding-bottom: 20px;
+  white-space: wrap;
 
   div {
     flex: 1;

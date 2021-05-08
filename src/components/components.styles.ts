@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    border 3px solid black;
-    background: #9e9393;
-    `;
+  background-color: #707070;
+  border: 40px;
+  border-style: solid;
+  border-color: #707070;
+  width: auto;
+  height: auto;
+`;
 
 export const Title = styled.h1`
   display: flex;

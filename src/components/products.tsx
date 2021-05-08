@@ -80,11 +80,13 @@ const Products = (): any => {
   return (
     <Wrapper>
       <Drawer anchor="right" open={cartOpen} onClose={() => setCartOpen(false)}>
+        <div>
         <Cart
           cartItems={cartItems}
           addToCart={handleAddToCart}
           removeFromCart={handleRemoveFromCart}
         />
+        </div>
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)}>
         <Badge badgeContent={getToatalItems(cartItems)} color="error">

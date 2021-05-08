@@ -8,4 +8,5 @@ export const Wrapper = styled.aside`
     border-width: 5px 0 0 5px;
     border: black;
     border-style: solid;
+    justify-content: right;
 `

@@ -17,7 +17,7 @@ const Theme = {
 const Navbar = styled.nav`
   background: ${Theme.colors.dark};
   font-family: ${Theme.fonts.heading};
-  color: ${Theme.colors.light};
+  color: ${Theme.colors.dark};
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,43 +28,39 @@ const Navbar = styled.nav`
 `;
 
 const Brand = styled.a`
-  font-style: italic;
+  font-style: bold;
   font-size: 32pt;
   font: Helvetica;
-  margin-left: 1rem;
-  padding-right: 1rem;
-`;
-
-const Ul = styled.ul`
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right:50px;
+  border: 3px white solid;
 `;
 
 const Li = styled.li`
-  flex: 0 0 auto;
-  -webkit-box-align: center;
+  flex: auto;
+  -webkit-box-align: right;
   -webkit-box-pack: center;
   -webkit-tap-highlight-color: transparent;
   align-items: center;
   color: #999;
   height: 100%;
-  justify-content: center;
+  justify-content: right;
   text-decoration: none;
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
+  -webkit-box-align: right;
+  -webkit-box-pack: right;
   -webkit-tap-highlight-color: transparent;
-  align-items: center;
+  align-items: right;
   color: #999;
   display: flex;
   font-size: 20px;
   height: 75px;
-  justify-content: center;
+  justify-content: right;
   line-height: 16px;
-  margin: 5px 10px;
-  text-decoration: none;
-  white-space: nowrap;
+  margin-right: 20px;
+  white-space: wrap;
 `;
 
 const NavBarScroller = (props: {
@@ -81,9 +77,9 @@ const NavBarScroller = (props: {
   return (
     <Navbar>
       <Brand href={brand.to}>{brand.name}</Brand>
-      <Ul>
+      
         <NavLinks />
-      </Ul>
+      
     </Navbar>
   );
 };

@@ -12,8 +12,8 @@ const navigation = {
   links: [
     { name: 'Home', to: '/' },
     { name: 'Products', to: '/prod' },
-    { name: 'Ring customizer', to: '/cust' },
-    { name: 'About me', to: '/about' },
+    { name: 'Ring Customizer', to: '/cust' },
+    { name: 'About Me', to: '/about' },
     { name: 'Contact', to: '/contact' },
   ],
 };
@@ -24,7 +24,7 @@ function App() {
       <Router>
         <NavBarScroller brand={navigation.brand} links={navigation.links} />
         <Switch>
-        <Route path="/" exact component={() => <Home />} />
+          <Route path="/" exact component={() => <Home />} />
           <Route path="/prod" exact component={() => <Products />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/cust" exact component={() => <Customizer />} />

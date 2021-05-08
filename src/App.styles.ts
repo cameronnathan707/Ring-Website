@@ -6,6 +6,8 @@ export const Wrapper = styled.div`
   border: 40px;
   border-style: solid;
   border-color: #707070;
+  width: auto;
+  height: auto;
 `;
 
 export const StyledButton = styled(IconButton)`
@@ -15,5 +17,4 @@ export const StyledButton = styled(IconButton)`
   top: 10px;
   color: black;
   background: radial-gradient(#ffffff, #707070);
-  box-shadow: 0px 0px 0px 3px black;
 `;
