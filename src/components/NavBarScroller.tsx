@@ -15,14 +15,14 @@ const Theme = {
 };
 
 const Navbar = styled.nav`
-  background: ${Theme.colors.dark};
+  background: ${Theme.colors.bg};
   font-family: ${Theme.fonts.heading};
   color: ${Theme.colors.dark};
   display: flex;
   align-items: center;
   justify-content: space-between;
   a {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 `;
@@ -36,7 +36,7 @@ const Brand = styled.a`
   padding-top: 15px;
   padding-bottom: 15px;
   margin-right:50px;
-  border: 3px white solid;
+  border: 3px black solid;
 `;
 
 const Li = styled.li`
