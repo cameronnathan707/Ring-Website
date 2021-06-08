@@ -1,3 +1,14 @@
+# Nathan Cameron Creatons Website
+
+A website that I've developed to learn react and developing an API for a store front. This is a WIP and learning experience
+so things will be changing and developing. This website will eventually have a store page and ring customerizer which will hopefully
+end up being a working sales website for my business
+
+# To Run:
+Download the Repository
+Run `npm install` in the download folder location
+Run `npm start` to run the website
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
