@@ -1,6 +1,6 @@
-# Nathan Cameron Creatons Website
+# Nathan Cameron Creations Website
 
-A website that I've developed to learn react and developing an API for a store front. This is a WIP and learning experience
+A website that I've developed to learn React and developing an API for a store front. This is a WIP and learning experience
 so things will be changing and developing. This website will eventually have a store page and ring customerizer which will hopefully
 end up being a working sales website for my business
 
