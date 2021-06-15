@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
-import React, { Component } from 'react';
 import 'reset-css';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 // componennts
 import Drawer from '@material-ui/core/Drawer';
 import Cart from '../Cart/cart';
@@ -81,11 +80,11 @@ const Products = (): any => {
     <Wrapper>
       <Drawer anchor="right" open={cartOpen} onClose={() => setCartOpen(false)}>
         <div>
-        <Cart
-          cartItems={cartItems}
-          addToCart={handleAddToCart}
-          removeFromCart={handleRemoveFromCart}
-        />
+          <Cart
+            cartItems={cartItems}
+            addToCart={handleAddToCart}
+            removeFromCart={handleRemoveFromCart}
+          />
         </div>
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)}>

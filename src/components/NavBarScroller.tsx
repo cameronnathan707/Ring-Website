@@ -1,4 +1,3 @@
-import { withRouter } from 'react-router';
 import styled from 'styled-components';
 
 const Theme = {
@@ -35,7 +34,7 @@ const Brand = styled.a`
   padding-left: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-right:50px;
+  margin-right: 50px;
   border: 3px black solid;
 `;
 
@@ -77,9 +76,8 @@ const NavBarScroller = (props: {
   return (
     <Navbar>
       <Brand href={brand.to}>{brand.name}</Brand>
-      
-        <NavLinks />
-      
+
+      <NavLinks />
     </Navbar>
   );
 };
