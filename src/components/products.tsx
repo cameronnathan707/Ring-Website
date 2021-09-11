@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery } from 'react-query';
 import 'reset-css';
 import { withRouter } from 'react-router-dom';
-// componennts
+// components
 import Drawer from '@material-ui/core/Drawer';
 import Cart from '../Cart/cart';
 import LinearProgess from '@material-ui/core/LinearProgress';
