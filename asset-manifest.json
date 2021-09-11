@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/cameronnathan707/Ring-Website/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/cameronnathan707/Ring-Website/static/js/main.69ab010f.chunk.js",
-    "main.js.map": "/cameronnathan707/Ring-Website/static/js/main.69ab010f.chunk.js.map",
-    "runtime-main.js": "/cameronnathan707/Ring-Website/static/js/runtime-main.fcd552ec.js",
-    "runtime-main.js.map": "/cameronnathan707/Ring-Website/static/js/runtime-main.fcd552ec.js.map",
-    "static/css/2.0978f8b3.chunk.css": "/cameronnathan707/Ring-Website/static/css/2.0978f8b3.chunk.css",
-    "static/js/2.05171859.chunk.js": "/cameronnathan707/Ring-Website/static/js/2.05171859.chunk.js",
-    "static/js/2.05171859.chunk.js.map": "/cameronnathan707/Ring-Website/static/js/2.05171859.chunk.js.map",
-    "index.html": "/cameronnathan707/Ring-Website/index.html",
-    "static/css/2.0978f8b3.chunk.css.map": "/cameronnathan707/Ring-Website/static/css/2.0978f8b3.chunk.css.map",
-    "static/css/main.2ae47eeb.chunk.css.map": "/cameronnathan707/Ring-Website/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.05171859.chunk.js.LICENSE.txt": "/cameronnathan707/Ring-Website/static/js/2.05171859.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.2ae47eeb.chunk.css",
+    "main.js": "./static/js/main.69ab010f.chunk.js",
+    "main.js.map": "./static/js/main.69ab010f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3dddb367.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3dddb367.js.map",
+    "static/css/2.0978f8b3.chunk.css": "./static/css/2.0978f8b3.chunk.css",
+    "static/js/2.aac33d51.chunk.js": "./static/js/2.aac33d51.chunk.js",
+    "static/js/2.aac33d51.chunk.js.map": "./static/js/2.aac33d51.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.0978f8b3.chunk.css.map": "./static/css/2.0978f8b3.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "./static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.aac33d51.chunk.js.LICENSE.txt": "./static/js/2.aac33d51.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcd552ec.js",
+    "static/js/runtime-main.3dddb367.js",
     "static/css/2.0978f8b3.chunk.css",
-    "static/js/2.05171859.chunk.js",
+    "static/js/2.aac33d51.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
     "static/js/main.69ab010f.chunk.js"
   ]
