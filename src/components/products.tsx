@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 // components
 import Drawer from '@material-ui/core/Drawer';
 import Cart from '../Cart/cart';
-import LinearProgess from '@material-ui/core/LinearProgress';
+import LinearProgress from '@material-ui/core/LinearProgress';
 import Grid from '@material-ui/core/Grid';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import Badge from '@material-ui/core/Badge';
@@ -37,7 +37,7 @@ const Products = (): any => {
     getProducts
   );
 
-  const getToatalItems = (items: CartItemType[]) =>
+  const getTotalItems = (items: CartItemType[]) =>
     items.reduce((ack: number, items) => ack + items.amount, 0);
 
   const handleAddToCart = (clickedItem: CartItemType) => {
@@ -70,7 +70,7 @@ const Products = (): any => {
   };
 
   if (isLoading) {
-    return <LinearProgess />;
+    return <LinearProgress />;
   }
   if (error) {
     return <div>Something went wrong ... </div>;
@@ -88,7 +88,7 @@ const Products = (): any => {
         </div>
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)}>
-        <Badge badgeContent={getToatalItems(cartItems)} color="error">
+        <Badge badgeContent={getTotalItems(cartItems)} color="error">
           <AddShoppingCartIcon />
         </Badge>
       </StyledButton>
