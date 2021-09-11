@@ -17,4 +17,5 @@ export const StyledButton = styled(IconButton)`
   top: 10px;
   color: black;
   background: radial-gradient(#ffffff, #707070);
+  float: right;
 `;
