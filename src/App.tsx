@@ -1,6 +1,6 @@
 import 'reset-css';
 import NavBarScroller from './components/NavBarScroller';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
 import Products from './components/products';
 import Home from './components/Home';
 import About from './components/About';
@@ -21,7 +21,7 @@ const navigation = {
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <NavBarScroller brand={navigation.brand} links={navigation.links} />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/cust" exact component={() => <Customizer />} />
           <Route path="/contact" exact component={() => <Contact />} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
