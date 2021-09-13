@@ -8,13 +8,13 @@ import Contact from './components/Contact';
 import Customizer from './components/Customizer';
 
 const navigation = {
-  brand: { name: 'Nathan Cameron Creations', to: '/' },
+  brand: { name: 'Nathan Cameron Creations', to: '/Ring-Website/#' },
   links: [
-    { name: 'Home', to: '/' },
-    { name: 'Products', to: '/prod' },
-    { name: 'Ring Customizer', to: '/cust' },
-    { name: 'About Me', to: '/about' },
-    { name: 'Contact', to: '/contact' },
+    { name: 'Home', to: '/Ring-Website/#' },
+    { name: 'Products', to: '/Ring-Website/#/prod' },
+    { name: 'Ring Customizer', to: '/Ring-Website/#/cust' },
+    { name: 'About Me', to: '/Ring-Website/#/about' },
+    { name: 'Contact', to: '/Ring-Website/#/contact' },
   ],
 };
 
