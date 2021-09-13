@@ -4,6 +4,8 @@ A website that I've developed to learn React and developing an API for a store f
 so things will be changing and developing. This website will eventually have a store page and ring customerizer which will hopefully
 end up being a working sales website for my business
 
+# Host is unavailable at the moment due to technical issues
+
 # To Run:
 Download the Repository
 Run `npm install` in the download folder location
