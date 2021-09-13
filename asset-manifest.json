@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ring-Website/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/Ring-Website/static/js/main.40775b27.chunk.js",
-    "main.js.map": "/Ring-Website/static/js/main.40775b27.chunk.js.map",
+    "main.js": "/Ring-Website/static/js/main.b1a93321.chunk.js",
+    "main.js.map": "/Ring-Website/static/js/main.b1a93321.chunk.js.map",
     "runtime-main.js": "/Ring-Website/static/js/runtime-main.6ad7cce0.js",
     "runtime-main.js.map": "/Ring-Website/static/js/runtime-main.6ad7cce0.js.map",
     "static/css/2.0978f8b3.chunk.css": "/Ring-Website/static/css/2.0978f8b3.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.0978f8b3.chunk.css",
     "static/js/2.8de33a0d.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.40775b27.chunk.js"
+    "static/js/main.b1a93321.chunk.js"
   ]
 }
