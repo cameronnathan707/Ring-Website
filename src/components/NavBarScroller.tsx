@@ -65,7 +65,7 @@ const Li = styled.li`
 const NavBarScroller = (props: {
   brand: { name: string; to: string };
   links: Array<{ name: string; to: string }>;
-}) => {
+}): JSX.Element => {
   const { brand, links } = props;
   const NavLinks: any = () =>
     links.map((link: { name: string; to: string }) => (
