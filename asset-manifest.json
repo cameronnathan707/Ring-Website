@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ring-Website/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/Ring-Website/static/js/main.b1a93321.chunk.js",
-    "main.js.map": "/Ring-Website/static/js/main.b1a93321.chunk.js.map",
+    "main.js": "/Ring-Website/static/js/main.60f8acb0.chunk.js",
+    "main.js.map": "/Ring-Website/static/js/main.60f8acb0.chunk.js.map",
     "runtime-main.js": "/Ring-Website/static/js/runtime-main.6ad7cce0.js",
     "runtime-main.js.map": "/Ring-Website/static/js/runtime-main.6ad7cce0.js.map",
     "static/css/2.0978f8b3.chunk.css": "/Ring-Website/static/css/2.0978f8b3.chunk.css",
@@ -11,13 +11,14 @@
     "index.html": "/Ring-Website/index.html",
     "static/css/2.0978f8b3.chunk.css.map": "/Ring-Website/static/css/2.0978f8b3.chunk.css.map",
     "static/css/main.2ae47eeb.chunk.css.map": "/Ring-Website/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.8de33a0d.chunk.js.LICENSE.txt": "/Ring-Website/static/js/2.8de33a0d.chunk.js.LICENSE.txt"
+    "static/js/2.8de33a0d.chunk.js.LICENSE.txt": "/Ring-Website/static/js/2.8de33a0d.chunk.js.LICENSE.txt",
+    "static/media/homeImage.94366f9b.png": "/Ring-Website/static/media/homeImage.94366f9b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6ad7cce0.js",
     "static/css/2.0978f8b3.chunk.css",
     "static/js/2.8de33a0d.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.b1a93321.chunk.js"
+    "static/js/main.60f8acb0.chunk.js"
   ]
 }
