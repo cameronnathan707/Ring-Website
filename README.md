@@ -3,8 +3,19 @@
 A website that I've developed to learn React and developing an API for a store front. This is a WIP and learning experience
 so things will be changing and developing. This website will eventually have a store page and ring customerizer which will hopefully
 end up being a working sales website for my business
+### Items to come: 
+2. ring customizer where metals and inalys can be specified 
+3. better styling throughout 
+4. Backend which will include my product pictures, prices, and inventory
 
-# Host is unavailable at the moment due to technical issues
+### Items implemented
+1. A products page
+2. A cart with Item adjustability 
+3. Cart with updating balance, and Icons for products in cart
+
+# Host routing is currently broken, to get to the products page go to:
+https://cameronnathan707.github.io/Ring-Website/#/prod
+
 
 # To Run:
 Download the Repository
