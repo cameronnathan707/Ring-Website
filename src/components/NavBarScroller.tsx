@@ -67,6 +67,7 @@ const NavBarScroller = (props: {
   links: Array<{ name: string; to: string }>;
 }): JSX.Element => {
   const { brand, links } = props;
+  //eslint-disable-next-line
   const NavLinks: any = () =>
     links.map((link: { name: string; to: string }) => (
       <Li key={link.name}>
