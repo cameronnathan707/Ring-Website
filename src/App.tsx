@@ -1,5 +1,6 @@
 import 'reset-css';
 import NavBarScroller from './components/NavBarScroller';
+//eslint-disable-next-line
 import { BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
 import Products from './components/products';
 import Home from './components/Home';
