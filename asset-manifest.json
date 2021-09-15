@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Ring-Website/static/css/main.221aee52.chunk.css",
-    "main.js": "/Ring-Website/static/js/main.a4bee246.chunk.js",
-    "main.js.map": "/Ring-Website/static/js/main.a4bee246.chunk.js.map",
-    "runtime-main.js": "/Ring-Website/static/js/runtime-main.6ad7cce0.js",
-    "runtime-main.js.map": "/Ring-Website/static/js/runtime-main.6ad7cce0.js.map",
+    "main.js": "/Ring-Website/static/js/main.f2fdb4a0.chunk.js",
+    "main.js.map": "/Ring-Website/static/js/main.f2fdb4a0.chunk.js.map",
+    "runtime-main.js": "/Ring-Website/static/js/runtime-main.5cf79337.js",
+    "runtime-main.js.map": "/Ring-Website/static/js/runtime-main.5cf79337.js.map",
     "static/css/2.0978f8b3.chunk.css": "/Ring-Website/static/css/2.0978f8b3.chunk.css",
-    "static/js/2.f928b872.chunk.js": "/Ring-Website/static/js/2.f928b872.chunk.js",
-    "static/js/2.f928b872.chunk.js.map": "/Ring-Website/static/js/2.f928b872.chunk.js.map",
+    "static/js/2.6898d2d9.chunk.js": "/Ring-Website/static/js/2.6898d2d9.chunk.js",
+    "static/js/2.6898d2d9.chunk.js.map": "/Ring-Website/static/js/2.6898d2d9.chunk.js.map",
     "index.html": "/Ring-Website/index.html",
     "static/css/2.0978f8b3.chunk.css.map": "/Ring-Website/static/css/2.0978f8b3.chunk.css.map",
     "static/css/main.221aee52.chunk.css.map": "/Ring-Website/static/css/main.221aee52.chunk.css.map",
-    "static/js/2.f928b872.chunk.js.LICENSE.txt": "/Ring-Website/static/js/2.f928b872.chunk.js.LICENSE.txt",
+    "static/js/2.6898d2d9.chunk.js.LICENSE.txt": "/Ring-Website/static/js/2.6898d2d9.chunk.js.LICENSE.txt",
     "static/media/homeImage.88b0a294.png": "/Ring-Website/static/media/homeImage.88b0a294.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ad7cce0.js",
+    "static/js/runtime-main.5cf79337.js",
     "static/css/2.0978f8b3.chunk.css",
-    "static/js/2.f928b872.chunk.js",
+    "static/js/2.6898d2d9.chunk.js",
     "static/css/main.221aee52.chunk.css",
-    "static/js/main.a4bee246.chunk.js"
+    "static/js/main.f2fdb4a0.chunk.js"
   ]
 }
