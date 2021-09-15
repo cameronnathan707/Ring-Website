@@ -1,6 +1,6 @@
 import 'reset-css';
 import NavBarScroller from './components/NavBarScroller';
-import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
 import Products from './components/products';
 import Home from './components/Home';
 import About from './components/About';
