@@ -1,12 +1,12 @@
 # Nathan Cameron Creations Website
 
 A website that I've developed to learn React and developing an API for a store front. This is a WIP and learning experience
-so things will be changing and developing. This website will eventually have a store page and ring customerizer which will hopefully
+so things will be changing and developing. This website will eventually have a store page and ring customizer which will hopefully
 end up being a working sales website for my business.
 https://cameronnathan707.github.io/Ring-Website/#/
 
 ### Items to come: 
-2. ring customizer where metals and inalys can be specified 
+2. ring customizer where metals and inlays can be specified 
 3. better styling throughout 
 4. Backend which will include my product pictures, prices, and inventory
 
